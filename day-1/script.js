@@ -123,4 +123,4 @@ tl.from(".main",{
     duration:1,
      
     scale:0.3,
-})
+})  
