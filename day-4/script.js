@@ -20,7 +20,7 @@ imgDiv.addEventListener("mouseenter",function (dets){
     })
 })
 imgDiv.addEventListener("mouseleave",function (dets){
-    cursor.innerHTML = "View More";
+    cursor.innerHTML = "";
     gsap.to(cursor,{
         scale:1,
         backgroundColor:"#fff",
